@@ -17,8 +17,9 @@ body {
 }
 
 main {
-  padding-top: 60px;
-  padding-bottom: 60px; /* Adjust as needed */
+  min-height: 85vh;
+  padding-top: 1%;
+  padding-bottom: 1%; /* Adjust as needed */
 }
 
 /*NAVBAR*/
@@ -37,7 +38,7 @@ main {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 20px 20px;
+  padding: 20px;
   text-decoration: none;
 }
 
@@ -56,8 +57,8 @@ main {
 
 /*FOOTER*/
 footer {
-  position: fixed;
-  height: 20vh;
+  /* position: fixed; */
+  height: 22vh;
   width: 100%;
   background-color: red;
   color: white;
@@ -67,19 +68,15 @@ footer {
 
 /*-----------------------------HOME_PAGE---------------------------------------*/
 /*CONTENT*/
-.home-content {
-  min-height: 100vh;
-}
 
 /*-----------------------------TRAINER_PAGE------------------------------------*/
 /*TRAINERS*/
 .trainers-container {
-  min-height: auto;
   border-collapse: collapse;
   margin: 1%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .trainers-container table {
@@ -114,7 +111,6 @@ footer {
 
 /*-----------------------------COLLECTION_PAGE---------------------------------*/
 .collection-container {
-  min-height: auto;
   border-collapse: collapse;
   margin: 1%;
   display: flex;
@@ -187,7 +183,6 @@ footer {
 /*-----------------------------POKEMON_CARD_PAGE-------------------------------*/
 /*CARDS*/
 .cards-container {
-  min-height: auto;
   /* border-collapse: collapse; */
   margin: 1%;
   /* display: flex; */
@@ -198,11 +193,11 @@ footer {
 
 .card-box {
   display: inline-block;
-  padding: 2%;
+  padding: 1%;
   width: 25%;
   max-width: 400px;
   height: 50%;
-  max-height: 480;
+  max-height: 480px;
   box-sizing: border-box;
 }
 
